@@ -1,0 +1,1748 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>뉴욕버거</title>
+    <link href="img/favicon.png" rel="shortcut icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Scheherazade+New:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/theather.css">
+    
+    <script src="http://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src='https://unpkg.co/gsap@3/dist/gsap.min.js'></script>
+    <script src='https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js'></script>
+    <script src='https://unpkg.com/gsap@3/dist/EasePack.min.js'></script>
+    <script src="js/theather.js"></script>
+</head>
+
+<body>
+    <div class="wrap">
+        <header>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/mainlogo.png" alt="로고">
+                </a>
+            </div>
+            <nav>
+                <div class="nav-header">
+                    <ul>
+                        <li><a href="#">SIGN IN</a></li>
+                        <li><a href="#">MemberShip</a></li>
+                    </ul>
+                    <div id="close-btn">
+                        <a href="#"><img src="img/close.png" alt="닫기"></a>
+                    </div>
+                </div>
+                <ul>
+                    <li><a href="#">뉴욕버거</a>
+                        <ul class="sub">
+                            <li><a href="#">브랜드 소개</a></li>
+                            <li><a href="#">대표이사 인사말</a></li>
+                            <li><a href="#">회사연혁</a></li>
+                            <li><a href="#">오시는 길</a></li>
+                        </ul>
+                    </li><!-- 뉴욕버거 -->
+                    <li><a href="#">메뉴안내</a>
+                        <ul class="sub">
+                            <li><a href="#">신메뉴</a></li>
+                            <li><a href="#">햄버거</a></li>
+                            <li><a href="#">치킨</a></li>
+                            <li><a href="#">사이드</a></li>
+                            <li><a href="#">커피&음료</a></li>
+                        </ul>
+                    </li><!-- 메뉴안내 -->
+                    <li><a href="#">매장정보</a>
+                        <ul class="sub">
+                            <li><a href="#">가까운매장찾기</a></li>
+                            <li><a href="#">신규매장</a></li>
+                            <li><a href="#">매장스타일</a></li>
+                        </ul>
+                    </li><!-- 매장정보 -->
+                    <li><a href="#">커뮤니티</a>
+                        <ul class="sub">
+                            <li><a href="#">단체문의</a></li>
+                            <li><a href="#">고객센터</a></li>
+                            <li><a href="#">공지사항</a></li>
+                            <li><a href="#">제휴문의</a></li>
+                            <li><a href="#">점주우편함</a></li>
+                        </ul>
+                    </li><!-- 커뮤니티 -->
+                    <li><a href="#">뉴스</a>
+                        <ul class="sub">
+                            <li><a href="#">블로그 리뷰</a></li>
+                            <li><a href="#">인스타그램</a></li>
+                            <li><a href="#">배달리뷰</a></li>
+                            <li><a href="#">언론보도</a></li>
+                            <li><a href="#">유튜브</a></li>
+                        </ul>
+                    </li><!-- 뉴스 -->
+                    <li><a href="#">이벤트</a></li>
+                    <li><a href="#">창업문의</a></li>
+                </ul>
+                <!-- 서브메뉴 배경 -->
+                <div class="sub-bg"></div>
+            </nav>
+            <div class="top-menu">
+                <ul>
+                    <li><a href="#">로그인</a></li>
+                    <li><a href="#">회원가입</a></li>
+                    <li><a href="#">사이트맵</a></li>
+                    <li><a href="#">
+                            <span>KOR</span>
+                            <i><img src="img/earth.svg" alt="다국어 지원"></i>
+                        </a></li>
+                </ul>
+            </div>
+            <div class="mobile-top-menu">
+                <ul>
+                    <li><a href="#"><img src="img/user.png" alt="로그인, 회원가입"></a></li>
+                    <li><a href="#"><img src="img/door.svg" alt="사이트맵"></a></li>
+                    <li><a href="#"><img src="img/earth.svg" alt="다국어 지원"></a></li>
+                    <li id="menu-icon"><a href="#"><img src="img/menu.svg" alt="메뉴 아이콘"></a></li>
+                </ul>
+            </div>
+        </header>
+        <section class="s1">
+            <div class="movie">
+                <!-- 유튜브 영상 넣기 -->
+                <iframe width="560" height="315"
+                    src="https://www.youtube.com/embed/kugxP6aKWDc?si=Fe4srb0zoOp7SJKH&amp;controls=0&autoplay=1&mute=1&loop=1&playlist=kugxP6aKWDc"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="mobile-movie">
+                <iframe width="481" height="855" src="https://www.youtube.com/embed/9bUYPZLPryI?autoplay=1&autohide=1&mute=1&loop=1&playlist=9bUYPZLPryI" title="창업멘토 권프로가 인정한 수제버거 프랜차이즈! 뉴욕버거 강점 총.정.리 #뉴욕버거 #햄버거 #수제버거 #햄버거창업 #수제버거창업 #프랜차이즈 #프랜차이즈창업" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <!-- <div class="big-title">
+                <h1>NEWYORK BURGER</h1>
+            </div> -->
+            <div class="scroll">
+                <h2>Scroll</h2>
+                <div class="bar">
+                    <span></span>
+                </div>
+            </div>
+        </section><!-- s1 -->
+        <section class="s2">
+            <div class="swiper mainSwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="des">
+                            <span>100%냉장육</span>
+                            <h2>소고기 패티</h2>
+                            <p>뉴욕스타일의 시그니처 수제패티 본연의
+                                육즙이 풍부한 폭풍식감을 만나보세요</p>
+                            <div class="more-btn">
+                                <a href="#">
+                                    <div class="more">
+                                        <span></span>
+                                        <p>view more</p>
+                                    </div>
+                                    <div class="arrow">
+                                        <svg style="enable-background:new 0 0 96 96;"
+                                            version="1.1" viewBox="0 0 96 96" xml:space="preserve"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <style type="text/css">
+                                                .st0 {
+                                                    display: none;
+                                                }
+
+                                                .st1 {
+                                                    display: inline;
+                                                }
+
+                                                .st2 {
+                                                    fill: none;
+                                                    stroke: #111;
+                                                    stroke-width: 2;
+                                                    stroke-linecap: round;
+                                                    stroke-linejoin: round;
+                                                    stroke-miterlimit: 10;
+                                                }
+
+                                                .st3 {
+                                                    display: none;
+                                                    fill: none;
+                                                    stroke: #111;
+                                                    stroke-width: 2;
+                                                    stroke-linecap: round;
+                                                    stroke-linejoin: round;
+                                                    stroke-miterlimit: 10;
+                                                }
+
+                                                .st4 {
+                                                    fill: #111;
+                                                }
+                                            </style>
+                                            <g class="st0" id="Grid" />
+                                            <g id="Home" />
+                                            <g id="Search" />
+                                            <g id="Plus" />
+                                            <g id="Minus" />
+                                            <g id="Setting" />
+                                            <g id="People" />
+                                            <g id="Statistic" />
+                                            <g id="Left_Arrow" />
+                                            <g id="Right_Arrow">
+                                                <g>
+                                                    <line class="st2" x1="84.5" x2="3.5" y1="48" y2="48" />
+                                                    <path class="st2"
+                                                        d="M70.8,70.3L92,49.1c0.6-0.6,0.6-1.6,0-2.2L70.8,25.7" />
+                                                </g>
+                                            </g>
+                                            <g id="Up_Arrow" />
+                                            <g id="Bottom_Arrow" />
+                                            <g id="Attachment" />
+                                            <g id="Calendar" />
+                                            <g id="Price" />
+                                            <g id="News" />
+                                        </svg>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="photo">
+                            <img src="img/meetpatty.jpg" alt="수제패티">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="des">
+                            <span>푸짐한 닭다리육</span>
+                            <h2>치킨패티</h2>
+                            <p>부드러운 닭다리살과 매콤한 칠리소스와 달콤한 갈릭소스중 내입맛대로 골라먹는 치킹버거</p>
+                            <div class="more-btn">
+                                <a href="#">
+                                    <div class="more">
+                                        <span></span>
+                                        <p>view more</p>
+                                    </div>
+                                    <div class="arrow">
+                                        <svg style="enable-background:new 0 0 96 96;"
+                                            version="1.1" viewBox="0 0 96 96" xml:space="preserve"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <style type="text/css">
+                                                .st0 {
+                                                    display: none;
+                                                }
+
+                                                .st1 {
+                                                    display: inline;
+                                                }
+
+                                                .st2 {
+                                                    fill: none;
+                                                    stroke: #111;
+                                                    stroke-width: 2;
+                                                    stroke-linecap: round;
+                                                    stroke-linejoin: round;
+                                                    stroke-miterlimit: 10;
+                                                }
+
+                                                .st3 {
+                                                    display: none;
+                                                    fill: none;
+                                                    stroke: #111;
+                                                    stroke-width: 2;
+                                                    stroke-linecap: round;
+                                                    stroke-linejoin: round;
+                                                    stroke-miterlimit: 10;
+                                                }
+
+                                                .st4 {
+                                                    fill: #111;
+                                                }
+                                            </style>
+                                            <g class="st0" id="Grid" />
+                                            <g id="Home" />
+                                            <g id="Search" />
+                                            <g id="Plus" />
+                                            <g id="Minus" />
+                                            <g id="Setting" />
+                                            <g id="People" />
+                                            <g id="Statistic" />
+                                            <g id="Left_Arrow" />
+                                            <g id="Right_Arrow">
+                                                <g>
+                                                    <line class="st2" x1="84.5" x2="3.5" y1="48" y2="48" />
+                                                    <path class="st2"
+                                                        d="M70.8,70.3L92,49.1c0.6-0.6,0.6-1.6,0-2.2L70.8,25.7" />
+                                                </g>
+                                            </g>
+                                            <g id="Up_Arrow" />
+                                            <g id="Bottom_Arrow" />
+                                            <g id="Attachment" />
+                                            <g id="Calendar" />
+                                            <g id="Price" />
+                                            <g id="News" />
+                                        </svg>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="photo">
+                            <img src="img/chPatty.jpg" alt="치킨패티">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="des">
+                            <span>매일 신선한 재료</span>
+                            <h2>신선한 재료</h2>
+                            <p>매일 신선한 재료로 만들어 신선하고 생생한 식감을 느낄 수 있어요</p>
+                            <div class="more-btn">
+                                <a href="#">
+                                    <div class="more">
+                                        <span></span>
+                                        <p>view more</p>
+                                    </div>
+                                    <div class="arrow">
+                                        <svg style="enable-background:new 0 0 96 96;"
+                                            version="1.1" viewBox="0 0 96 96" xml:space="preserve"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <style type="text/css">
+                                                .st0 {
+                                                    display: none;
+                                                }
+
+                                                .st1 {
+                                                    display: inline;
+                                                }
+
+                                                .st2 {
+                                                    fill: none;
+                                                    stroke: #111;
+                                                    stroke-width: 2;
+                                                    stroke-linecap: round;
+                                                    stroke-linejoin: round;
+                                                    stroke-miterlimit: 10;
+                                                }
+
+                                                .st3 {
+                                                    display: none;
+                                                    fill: none;
+                                                    stroke: #111;
+                                                    stroke-width: 2;
+                                                    stroke-linecap: round;
+                                                    stroke-linejoin: round;
+                                                    stroke-miterlimit: 10;
+                                                }
+
+                                                .st4 {
+                                                    fill: #111;
+                                                }
+                                            </style>
+                                            <g class="st0" id="Grid" />
+                                            <g id="Home" />
+                                            <g id="Search" />
+                                            <g id="Plus" />
+                                            <g id="Minus" />
+                                            <g id="Setting" />
+                                            <g id="People" />
+                                            <g id="Statistic" />
+                                            <g id="Left_Arrow" />
+                                            <g id="Right_Arrow">
+                                                <g>
+                                                    <line class="st2" x1="84.5" x2="3.5" y1="48" y2="48" />
+                                                    <path class="st2"
+                                                        d="M70.8,70.3L92,49.1c0.6-0.6,0.6-1.6,0-2.2L70.8,25.7" />
+                                                </g>
+                                            </g>
+                                            <g id="Up_Arrow" />
+                                            <g id="Bottom_Arrow" />
+                                            <g id="Attachment" />
+                                            <g id="Calendar" />
+                                            <g id="Price" />
+                                            <g id="News" />
+                                        </svg>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="photo">
+                            <img src="img/mt_02_04.jpg" alt="신선한 재료">
+                            <span></span>
+                        </div>
+                    </div><!-- swiper-slide -->
+                </div><!-- swiper-wrapper -->
+                <div class="swiper-pagination"></div>
+                <div class="swiper-progress-bar">
+                    <span class="progress-bar-ani">
+                    </span>
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div><!-- swiper -->
+        </section><!-- s2 -->
+        <section class="s3">
+            <!-- 흐르는 글자 -->
+            <div class="text-ani">
+                <div class="text-wrap">
+                    <p>NEWYORK BURGER & CHICKEN BURGER & SIDE DISH &amp;&nbsp;</p>
+                    <p>NEWYORK BURGER & CHICKEN BURGER & SIDE DISH &amp;&nbsp;</p>
+                </div>
+            </div>
+        </section><!-- s3 -->
+        <section class="s4" data-bg="#006432">
+            <div class="product">
+                <div class="product-box">
+                    <!-- 이미지 영역 -->
+                    <div class="cont img-box">
+                        <div class="left-img-box">
+                            <div class="product-img img-box2">
+                                <div class="photo">
+                                    <img src="img/burger.png" alt="햄버거 메뉴">
+                                </div><!-- photo -->
+                            </div><!-- product-img img-box2 -->
+                        </div><!-- left-img-box -->
+                        <div class="right-img-box">
+                            <div class="product-img img-box1">
+                                <div class="photo">
+                                    <img src="img/newMenu.png" alt="신메뉴">
+                                </div><!-- photo -->
+                            </div><!-- product-img img-box1 -->
+                            <div class="product-img img-box3">
+                                <div class="photo">
+                                    <img src="img/sideMenu.png" alt="사이드 메뉴">
+                                </div><!-- photo -->
+                            </div><!-- product-img img-box3 -->
+                        </div><!-- right-img-box -->
+                    </div><!-- cont img-box -->
+
+                    <!-- 마스크 영역 -->
+                    <div class="cont cover-box">
+                        <div class="left-cover-box">
+                            <div class="cover cover1">
+
+                            </div><!-- cover cover1 -->
+                            <div class="cover cover2">
+
+                            </div><!-- cover cover2 -->
+                            <div class="cover cover3">
+
+                            </div><!-- cover cover3 -->
+                            <div class="cover cover4">
+
+                            </div><!-- cover cover4 -->
+                        </div><!-- left-cover-box -->
+                        <div class="right-cover-box">
+                            <div class="cover cover1">
+
+                            </div><!-- cover cover1 -->
+                            <div class="cover cover2">
+
+                            </div><!-- cover cover2 -->
+                            <div class="cover cover3">
+
+                            </div><!-- cover cover3 -->
+                            <div class="cover cover4">
+
+                            </div><!-- cover cover4 -->
+                        </div><!-- right-cover-box -->
+                    </div>
+
+                    <!-- 글자와 작은 상자 영역 -->
+                    <div class="cont txt-box">
+                        <div class="left-txt-box">
+                            <!-- 첫번째 글자 영역 -->
+                            <div class="product-title-wrap txt1">
+                                <div class="product-title-child">
+                                    <h2>신메뉴</h2>
+                                    <p>뉴욕버거에서만 볼 수 있는 특별한 신메뉴</p>
+                                    <div class="boxs">
+                                        <div class="box">
+                                            <h3>아메리칸 데미원</h3>
+                                            <img src="img/AmericanBurger.png" alt="아메리칸 데미원 버거">
+                                            <span>
+                                                <!DOCTYPE svg
+                                                    PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+                                                <svg enable-background="new 0 0 50 50" height="50px" id="Layer_1"
+                                                    version="1.1" viewBox="0 0 50 50" width="50px" xml:space="preserve"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                    <rect fill="none" height="50" width="50" />
+                                                    <polyline fill="none"
+                                                        points="30.054,14.11   40.943,25 30.053,35.89 " stroke="#d2d2b4"
+                                                        stroke-linecap="round" stroke-miterlimit="10"
+                                                        stroke-width="2" />
+                                                    <line fill="none" stroke="#d2d2b4" stroke-linecap="round"
+                                                        stroke-miterlimit="10" stroke-width="2" x1="9" x2="40.416"
+                                                        y1="25" y2="25" />
+                                                </svg>
+                                            </span>
+                                        </div>
+                                        <div class="box">
+                                            <h3>웰빙 머쉬룸 버거</h3>
+                                            <img src="img/mushroomBurger.png" alt="웰빙 머쉬룸 버거">
+                                            <span>
+                                                <!DOCTYPE svg
+                                                    PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+                                                <svg enable-background="new 0 0 50 50" height="50px" id="Layer_1"
+                                                    version="1.1" viewBox="0 0 50 50" width="50px" xml:space="preserve"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                    <rect fill="none" height="50" width="50" />
+                                                    <polyline fill="none"
+                                                        points="30.054,14.11   40.943,25 30.053,35.89 " stroke="#d2d2b4"
+                                                        stroke-linecap="round" stroke-miterlimit="10"
+                                                        stroke-width="2" />
+                                                    <line fill="none" stroke="#d2d2b4" stroke-linecap="round"
+                                                        stroke-miterlimit="10" stroke-width="2" x1="9" x2="40.416"
+                                                        y1="25" y2="25" />
+                                                </svg>
+                                            </span>
+                                        </div>
+                                        <div class="box">
+                                            <h3>K-나쵸</h3>
+                                            <img src="img/nacho.png" alt="K-나쵸">
+                                            <span>
+                                                <!DOCTYPE svg
+                                                    PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+                                                <svg enable-background="new 0 0 50 50" height="50px" id="Layer_1"
+                                                    version="1.1" viewBox="0 0 50 50" width="50px" xml:space="preserve"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                    <rect fill="none" height="50" width="50" />
+                                                    <polyline fill="none"
+                                                        points="30.054,14.11   40.943,25 30.053,35.89 " stroke="#d2d2b4"
+                                                        stroke-linecap="round" stroke-miterlimit="10"
+                                                        stroke-width="2" />
+                                                    <line fill="none" stroke="#d2d2b4" stroke-linecap="round"
+                                                        stroke-miterlimit="10" stroke-width="2" x1="9" x2="40.416"
+                                                        y1="25" y2="25" />
+                                                </svg>
+                                            </span>
+                                        </div>
+                                        <div class="box">
+                                            <h3>갈릭 프라이드</h3>
+                                            <img src="img/garlicFried.png" alt="갈릭 프라이드">
+                                            <span>
+                                                <!DOCTYPE svg
+                                                    PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+                                                <svg enable-background="new 0 0 50 50" height="50px" id="Layer_1"
+                                                    version="1.1" viewBox="0 0 50 50" width="50px" xml:space="preserve"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                    <rect fill="none" height="50" width="50" />
+                                                    <polyline fill="none"
+                                                        points="30.054,14.11   40.943,25 30.053,35.89 " stroke="#d2d2b4"
+                                                        stroke-linecap="round" stroke-miterlimit="10"
+                                                        stroke-width="2" />
+                                                    <line fill="none" stroke="#d2d2b4" stroke-linecap="round"
+                                                        stroke-miterlimit="10" stroke-width="2" x1="9" x2="40.416"
+                                                        y1="25" y2="25" />
+                                                </svg>
+                                            </span>
+                                        </div>
+                                        <div class="box">
+                                            <h3>제로 미트너겟</h3>
+                                            <img src="img/nugget.png" alt="제로 미트너겟">
+                                            <span>
+                                                <!DOCTYPE svg
+                                                    PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+                                                <svg enable-background="new 0 0 50 50" height="50px" id="Layer_1"
+                                                    version="1.1" viewBox="0 0 50 50" width="50px" xml:space="preserve"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                    <rect fill="none" height="50" width="50" />
+                                                    <polyline fill="none"
+                                                        points="30.054,14.11   40.943,25 30.053,35.89 " stroke="#d2d2b4"
+                                                        stroke-linecap="round" stroke-miterlimit="10"
+                                                        stroke-width="2" />
+                                                    <line fill="none" stroke="#d2d2b4" stroke-linecap="round"
+                                                        stroke-miterlimit="10" stroke-width="2" x1="9" x2="40.416"
+                                                        y1="25" y2="25" />
+                                                </svg>
+                                            </span>
+                                        </div>
+                                        <div class="box">
+                                            <h3>크리스피 윙&봉</h3>
+                                            <img src="img/crispy.png" alt="크리스피 윙&봉">
+                                            <span>
+                                                <!DOCTYPE svg
+                                                    PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+                                                <svg enable-background="new 0 0 50 50" height="50px" id="Layer_1"
+                                                    version="1.1" viewBox="0 0 50 50" width="50px" xml:space="preserve"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                    <rect fill="none" height="50" width="50" />
+                                                    <polyline fill="none"
+                                                        points="30.054,14.11   40.943,25 30.053,35.89 " stroke="#d2d2b4"
+                                                        stroke-linecap="round" stroke-miterlimit="10"
+                                                        stroke-width="2" />
+                                                    <line fill="none" stroke="#d2d2b4" stroke-linecap="round"
+                                                        stroke-miterlimit="10" stroke-width="2" x1="9" x2="40.416"
+                                                        y1="25" y2="25" />
+                                                </svg>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div><!-- product-title-child -->
+                            </div><!-- product-title-wrap -->
+                            <!-- 세번째 글자 영역 -->
+                            <div class="product-title-wrap txt3">
+                                <div class="product-title-child">
+                                    <h2>사이드</h2>
+                                    <p>다양한 사이드 메뉴와 함께 즐기는 즐거움</p>
+                                    <div class="boxs">
+                                        <div class="box">
+                                            <h3>빅후렌치 후라이</h3>
+                                            <img src="img/bigPhtatoFried.png" alt="빅후렌치 후라이">
+                                            <span>
+                                                <!DOCTYPE svg
+                                                    PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+                                                <svg enable-background="new 0 0 50 50" height="50px" id="Layer_1"
+                                                    version="1.1" viewBox="0 0 50 50" width="50px" xml:space="preserve"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                    <rect fill="none" height="50" width="50" />
+                                                    <polyline fill="none"
+                                                        points="30.054,14.11   40.943,25 30.053,35.89 " stroke="#d2d2b4"
+                                                        stroke-linecap="round" stroke-miterlimit="10"
+                                                        stroke-width="2" />
+                                                    <line fill="none" stroke="#d2d2b4" stroke-linecap="round"
+                                                        stroke-miterlimit="10" stroke-width="2" x1="9" x2="40.416"
+                                                        y1="25" y2="25" />
+                                                </svg>
+                                            </span>
+                                        </div>
+                                        <div class="box">
+                                            <h3>케이준 후라이</h3>
+                                            <img src="img/KJPotatoFried.png" alt="케이준 후렌치 후라이">
+                                            <span>
+                                                <!DOCTYPE svg
+                                                    PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+                                                <svg enable-background="new 0 0 50 50" height="50px" id="Layer_1"
+                                                    version="1.1" viewBox="0 0 50 50" width="50px" xml:space="preserve"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                    <rect fill="none" height="50" width="50" />
+                                                    <polyline fill="none"
+                                                        points="30.054,14.11   40.943,25 30.053,35.89 " stroke="#d2d2b4"
+                                                        stroke-linecap="round" stroke-miterlimit="10"
+                                                        stroke-width="2" />
+                                                    <line fill="none" stroke="#d2d2b4" stroke-linecap="round"
+                                                        stroke-miterlimit="10" stroke-width="2" x1="9" x2="40.416"
+                                                        y1="25" y2="25" />
+                                                </svg>
+                                            </span>
+                                        </div>
+                                        <div class="box">
+                                            <h3>고구마 튀김</h3>
+                                            <img src="img/sweetPotatoFried.png" alt="고구마 튀김">
+                                            <span>
+                                                <!DOCTYPE svg
+                                                    PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+                                                <svg enable-background="new 0 0 50 50" height="50px" id="Layer_1"
+                                                    version="1.1" viewBox="0 0 50 50" width="50px" xml:space="preserve"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                    <rect fill="none" height="50" width="50" />
+                                                    <polyline fill="none"
+                                                        points="30.054,14.11   40.943,25 30.053,35.89 " stroke="#d2d2b4"
+                                                        stroke-linecap="round" stroke-miterlimit="10"
+                                                        stroke-width="2" />
+                                                    <line fill="none" stroke="#d2d2b4" stroke-linecap="round"
+                                                        stroke-miterlimit="10" stroke-width="2" x1="9" x2="40.416"
+                                                        y1="25" y2="25" />
+                                                </svg>
+                                            </span>
+                                        </div>
+                                        <div class="box">
+                                            <h3>라구치즈 프라이즈</h3>
+                                            <img src="img/laguCheesePhtatoFried.png" alt="라구치즈 프라이즈">
+                                            <span>
+                                                <!DOCTYPE svg
+                                                    PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+                                                <svg enable-background="new 0 0 50 50" height="50px" id="Layer_1"
+                                                    version="1.1" viewBox="0 0 50 50" width="50px" xml:space="preserve"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                    <rect fill="none" height="50" width="50" />
+                                                    <polyline fill="none"
+                                                        points="30.054,14.11   40.943,25 30.053,35.89 " stroke="#d2d2b4"
+                                                        stroke-linecap="round" stroke-miterlimit="10"
+                                                        stroke-width="2" />
+                                                    <line fill="none" stroke="#d2d2b4" stroke-linecap="round"
+                                                        stroke-miterlimit="10" stroke-width="2" x1="9" x2="40.416"
+                                                        y1="25" y2="25" />
+                                                </svg>
+                                            </span>
+                                        </div>
+                                        <div class="box">
+                                            <h3>갈릭 프라이즈</h3>
+                                            <img src="img/garlicFried.png" alt="갈릭 프라이즈">
+                                            <span>
+                                                <!DOCTYPE svg
+                                                    PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+                                                <svg enable-background="new 0 0 50 50" height="50px" id="Layer_1"
+                                                    version="1.1" viewBox="0 0 50 50" width="50px" xml:space="preserve"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                    <rect fill="none" height="50" width="50" />
+                                                    <polyline fill="none"
+                                                        points="30.054,14.11   40.943,25 30.053,35.89 " stroke="#d2d2b4"
+                                                        stroke-linecap="round" stroke-miterlimit="10"
+                                                        stroke-width="2" />
+                                                    <line fill="none" stroke="#d2d2b4" stroke-linecap="round"
+                                                        stroke-miterlimit="10" stroke-width="2" x1="9" x2="40.416"
+                                                        y1="25" y2="25" />
+                                                </svg>
+                                            </span>
+                                        </div>
+                                        <div class="box">
+                                            <h3>더블치즈 프라이즈</h3>
+                                            <img src="img/doubleCheeseFried.png" alt="더블치즈 프라이즈">
+                                            <span>
+                                                <!DOCTYPE svg
+                                                    PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+                                                <svg enable-background="new 0 0 50 50" height="50px" id="Layer_1"
+                                                    version="1.1" viewBox="0 0 50 50" width="50px" xml:space="preserve"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                    <rect fill="none" height="50" width="50" />
+                                                    <polyline fill="none"
+                                                        points="30.054,14.11   40.943,25 30.053,35.89 " stroke="#d2d2b4"
+                                                        stroke-linecap="round" stroke-miterlimit="10"
+                                                        stroke-width="2" />
+                                                    <line fill="none" stroke="#d2d2b4" stroke-linecap="round"
+                                                        stroke-miterlimit="10" stroke-width="2" x1="9" x2="40.416"
+                                                        y1="25" y2="25" />
+                                                </svg>
+                                            </span>
+                                        </div>
+                                        <div class="box">
+                                            <h3>대왕치즈스틱</h3>
+                                            <img src="img/CheeseStick.png" alt="대왕치즈스틱">
+                                            <span>
+                                                <!DOCTYPE svg
+                                                    PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+                                                <svg enable-background="new 0 0 50 50" height="50px" id="Layer_1"
+                                                    version="1.1" viewBox="0 0 50 50" width="50px" xml:space="preserve"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                    <rect fill="none" height="50" width="50" />
+                                                    <polyline fill="none"
+                                                        points="30.054,14.11   40.943,25 30.053,35.89 " stroke="#d2d2b4"
+                                                        stroke-linecap="round" stroke-miterlimit="10"
+                                                        stroke-width="2" />
+                                                    <line fill="none" stroke="#d2d2b4" stroke-linecap="round"
+                                                        stroke-miterlimit="10" stroke-width="2" x1="9" x2="40.416"
+                                                        y1="25" y2="25" />
+                                                </svg>
+                                            </span>
+                                        </div>
+                                        <div class="box">
+                                            <h3>치킨텐더</h3>
+                                            <img src="img/ChickenTender.png" alt="치킨텐더">
+                                            <span>
+                                                <!DOCTYPE svg
+                                                    PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+                                                <svg enable-background="new 0 0 50 50" height="50px" id="Layer_1"
+                                                    version="1.1" viewBox="0 0 50 50" width="50px" xml:space="preserve"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                    <rect fill="none" height="50" width="50" />
+                                                    <polyline fill="none"
+                                                        points="30.054,14.11   40.943,25 30.053,35.89 " stroke="#d2d2b4"
+                                                        stroke-linecap="round" stroke-miterlimit="10"
+                                                        stroke-width="2" />
+                                                    <line fill="none" stroke="#d2d2b4" stroke-linecap="round"
+                                                        stroke-miterlimit="10" stroke-width="2" x1="9" x2="40.416"
+                                                        y1="25" y2="25" />
+                                                </svg>
+                                            </span>
+                                        </div>
+                                        <div class="box">
+                                            <h3>어니언링</h3>
+                                            <img src="img/onionRing.png" alt="어니언링">
+                                            <span>
+                                                <!DOCTYPE svg
+                                                    PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+                                                <svg enable-background="new 0 0 50 50" height="50px" id="Layer_1"
+                                                    version="1.1" viewBox="0 0 50 50" width="50px" xml:space="preserve"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                    <rect fill="none" height="50" width="50" />
+                                                    <polyline fill="none"
+                                                        points="30.054,14.11   40.943,25 30.053,35.89 " stroke="#d2d2b4"
+                                                        stroke-linecap="round" stroke-miterlimit="10"
+                                                        stroke-width="2" />
+                                                    <line fill="none" stroke="#d2d2b4" stroke-linecap="round"
+                                                        stroke-miterlimit="10" stroke-width="2" x1="9" x2="40.416"
+                                                        y1="25" y2="25" />
+                                                </svg>
+                                            </span>
+                                        </div>
+                                        <div class="box">
+                                            <h3>프라이팩</h3>
+                                            <img src="img/fiedpack.png" alt="프라이팩">
+                                            <span>
+                                                <!DOCTYPE svg
+                                                    PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+                                                <svg enable-background="new 0 0 50 50" height="50px" id="Layer_1"
+                                                    version="1.1" viewBox="0 0 50 50" width="50px" xml:space="preserve"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                    <rect fill="none" height="50" width="50" />
+                                                    <polyline fill="none"
+                                                        points="30.054,14.11   40.943,25 30.053,35.89 " stroke="#d2d2b4"
+                                                        stroke-linecap="round" stroke-miterlimit="10"
+                                                        stroke-width="2" />
+                                                    <line fill="none" stroke="#d2d2b4" stroke-linecap="round"
+                                                        stroke-miterlimit="10" stroke-width="2" x1="9" x2="40.416"
+                                                        y1="25" y2="25" />
+                                                </svg>
+                                            </span>
+                                        </div>
+                                        <div class="box">
+                                            <h3>플레인스콘</h3>
+                                            <img src="img/pureScone.png" alt="플레인스콘">
+                                            <span>
+                                                <!DOCTYPE svg
+                                                    PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+                                                <svg enable-background="new 0 0 50 50" height="50px" id="Layer_1"
+                                                    version="1.1" viewBox="0 0 50 50" width="50px" xml:space="preserve"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                    <rect fill="none" height="50" width="50" />
+                                                    <polyline fill="none"
+                                                        points="30.054,14.11   40.943,25 30.053,35.89 " stroke="#d2d2b4"
+                                                        stroke-linecap="round" stroke-miterlimit="10"
+                                                        stroke-width="2" />
+                                                    <line fill="none" stroke="#d2d2b4" stroke-linecap="round"
+                                                        stroke-miterlimit="10" stroke-width="2" x1="9" x2="40.416"
+                                                        y1="25" y2="25" />
+                                                </svg>
+                                            </span>
+                                        </div>
+                                        <div class="box">
+                                            <h3>대왕오징어스틱</h3>
+                                            <img src="img/largeSquidStick.png" alt="대왕오징어스틱">
+                                            <span>
+                                                <!DOCTYPE svg
+                                                    PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+                                                <svg enable-background="new 0 0 50 50" height="50px" id="Layer_1"
+                                                    version="1.1" viewBox="0 0 50 50" width="50px" xml:space="preserve"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                    <rect fill="none" height="50" width="50" />
+                                                    <polyline fill="none"
+                                                        points="30.054,14.11   40.943,25 30.053,35.89 " stroke="#d2d2b4"
+                                                        stroke-linecap="round" stroke-miterlimit="10"
+                                                        stroke-width="2" />
+                                                    <line fill="none" stroke="#d2d2b4" stroke-linecap="round"
+                                                        stroke-miterlimit="10" stroke-width="2" x1="9" x2="40.416"
+                                                        y1="25" y2="25" />
+                                                </svg>
+                                            </span>
+                                        </div>
+                                        <div class="box">
+                                            <h3>해쉬브라운</h3>
+                                            <img src="img/HashBrowns.png" alt="해쉬브라운">
+                                            <span>
+                                                <!DOCTYPE svg
+                                                    PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+                                                <svg enable-background="new 0 0 50 50" height="50px" id="Layer_1"
+                                                    version="1.1" viewBox="0 0 50 50" width="50px" xml:space="preserve"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                    <rect fill="none" height="50" width="50" />
+                                                    <polyline fill="none"
+                                                        points="30.054,14.11   40.943,25 30.053,35.89 " stroke="#d2d2b4"
+                                                        stroke-linecap="round" stroke-miterlimit="10"
+                                                        stroke-width="2" />
+                                                    <line fill="none" stroke="#d2d2b4" stroke-linecap="round"
+                                                        stroke-miterlimit="10" stroke-width="2" x1="9" x2="40.416"
+                                                        y1="25" y2="25" />
+                                                </svg>
+                                            </span>
+                                        </div>
+                                        <div class="box">
+                                            <h3>치즈볼</h3>
+                                            <img src="img/cheeseBall.png" alt="치즈볼">
+                                            <span>
+                                                <!DOCTYPE svg
+                                                    PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+                                                <svg enable-background="new 0 0 50 50" height="50px" id="Layer_1"
+                                                    version="1.1" viewBox="0 0 50 50" width="50px" xml:space="preserve"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                    <rect fill="none" height="50" width="50" />
+                                                    <polyline fill="none"
+                                                        points="30.054,14.11   40.943,25 30.053,35.89 " stroke="#d2d2b4"
+                                                        stroke-linecap="round" stroke-miterlimit="10"
+                                                        stroke-width="2" />
+                                                    <line fill="none" stroke="#d2d2b4" stroke-linecap="round"
+                                                        stroke-miterlimit="10" stroke-width="2" x1="9" x2="40.416"
+                                                        y1="25" y2="25" />
+                                                </svg>
+                                            </span>
+                                        </div>
+                                        <div class="box">
+                                            <h3>새우볼</h3>
+                                            <img src="img/shrimpball.png" alt="새우볼">
+                                            <span>
+                                                <!DOCTYPE svg
+                                                    PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+                                                <svg enable-background="new 0 0 50 50" height="50px" id="Layer_1"
+                                                    version="1.1" viewBox="0 0 50 50" width="50px" xml:space="preserve"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                    <rect fill="none" height="50" width="50" />
+                                                    <polyline fill="none"
+                                                        points="30.054,14.11   40.943,25 30.053,35.89 " stroke="#d2d2b4"
+                                                        stroke-linecap="round" stroke-miterlimit="10"
+                                                        stroke-width="2" />
+                                                    <line fill="none" stroke="#d2d2b4" stroke-linecap="round"
+                                                        stroke-miterlimit="10" stroke-width="2" x1="9" x2="40.416"
+                                                        y1="25" y2="25" />
+                                                </svg>
+                                            </span>
+                                        </div>
+                                        <div class="box">
+                                            <h3>제로미트너겟</h3>
+                                            <img src="img/nugget.png" alt="제로미트너겟">
+                                            <span>
+                                                <!DOCTYPE svg
+                                                    PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+                                                <svg enable-background="new 0 0 50 50" height="50px" id="Layer_1"
+                                                    version="1.1" viewBox="0 0 50 50" width="50px" xml:space="preserve"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                    <rect fill="none" height="50" width="50" />
+                                                    <polyline fill="none"
+                                                        points="30.054,14.11   40.943,25 30.053,35.89 " stroke="#d2d2b4"
+                                                        stroke-linecap="round" stroke-miterlimit="10"
+                                                        stroke-width="2" />
+                                                    <line fill="none" stroke="#d2d2b4" stroke-linecap="round"
+                                                        stroke-miterlimit="10" stroke-width="2" x1="9" x2="40.416"
+                                                        y1="25" y2="25" />
+                                                </svg>
+                                            </span>
+                                        </div>
+                                    </div><!-- boxs -->
+                                </div><!-- product-title-child -->
+                            </div><!-- product-title-wrap -->
+                        </div><!-- left-txt-box -->
+                        <div class="right-txt-box">
+                            <!-- 두번째 글자 영역 -->
+                            <div class="product-title-wrap txt2">
+                                <div class="product-title-child">
+                                    <h2>햄버거</h2>
+                                    <p>착하고 행복한 수제버거 전문 뉴욕버거</p>
+                                    <div class="boxs">
+                                        <div class="box">
+                                            <h3>뉴욕버거</h3>
+                                            <img src="img/newyorkburger.png" alt="뉴욕버거">
+                                            <span>
+                                                <!DOCTYPE svg
+                                                    PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+                                                <svg enable-background="new 0 0 50 50" height="50px" id="Layer_1"
+                                                    version="1.1" viewBox="0 0 50 50" width="50px" xml:space="preserve"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                    <rect fill="none" height="50" width="50" />
+                                                    <polyline fill="none"
+                                                        points="30.054,14.11   40.943,25 30.053,35.89 " stroke="#d2d2b4"
+                                                        stroke-linecap="round" stroke-miterlimit="10"
+                                                        stroke-width="2" />
+                                                    <line fill="none" stroke="#d2d2b4" stroke-linecap="round"
+                                                        stroke-miterlimit="10" stroke-width="2" x1="9" x2="40.416"
+                                                        y1="25" y2="25" />
+                                                </svg>
+                                            </span>
+                                        </div>
+                                        <div class="box">
+                                            <h3>치킹버거(칠리)</h3>
+                                            <img src="img/chiliChickingbuger.png" alt="칠리치킹버거">
+                                            <span>
+                                                <!DOCTYPE svg
+                                                    PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+                                                <svg enable-background="new 0 0 50 50" height="50px" id="Layer_1"
+                                                    version="1.1" viewBox="0 0 50 50" width="50px" xml:space="preserve"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                    <rect fill="none" height="50" width="50" />
+                                                    <polyline fill="none"
+                                                        points="30.054,14.11   40.943,25 30.053,35.89 " stroke="#d2d2b4"
+                                                        stroke-linecap="round" stroke-miterlimit="10"
+                                                        stroke-width="2" />
+                                                    <line fill="none" stroke="#d2d2b4" stroke-linecap="round"
+                                                        stroke-miterlimit="10" stroke-width="2" x1="9" x2="40.416"
+                                                        y1="25" y2="25" />
+                                                </svg>
+                                            </span>
+                                        </div>
+                                        <div class="box">
+                                            <h3>치킹버거(갈릭)</h3>
+                                            <img src="img/garlicChickingburger.png" alt="갈릭치킹버거">
+                                            <span>
+                                                <!DOCTYPE svg
+                                                    PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+                                                <svg enable-background="new 0 0 50 50" height="50px" id="Layer_1"
+                                                    version="1.1" viewBox="0 0 50 50" width="50px" xml:space="preserve"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                    <rect fill="none" height="50" width="50" />
+                                                    <polyline fill="none"
+                                                        points="30.054,14.11   40.943,25 30.053,35.89 " stroke="#d2d2b4"
+                                                        stroke-linecap="round" stroke-miterlimit="10"
+                                                        stroke-width="2" />
+                                                    <line fill="none" stroke="#d2d2b4" stroke-linecap="round"
+                                                        stroke-miterlimit="10" stroke-width="2" x1="9" x2="40.416"
+                                                        y1="25" y2="25" />
+                                                </svg>
+                                            </span>
+                                        </div>
+                                        <div class="box">
+                                            <h3>오찡버거</h3>
+                                            <img src="img/SquidBurger.png" alt="오찡버거">
+                                            <span>
+                                                <!DOCTYPE svg
+                                                    PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+                                                <svg enable-background="new 0 0 50 50" height="50px" id="Layer_1"
+                                                    version="1.1" viewBox="0 0 50 50" width="50px" xml:space="preserve"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                    <rect fill="none" height="50" width="50" />
+                                                    <polyline fill="none"
+                                                        points="30.054,14.11   40.943,25 30.053,35.89 " stroke="#d2d2b4"
+                                                        stroke-linecap="round" stroke-miterlimit="10"
+                                                        stroke-width="2" />
+                                                    <line fill="none" stroke="#d2d2b4" stroke-linecap="round"
+                                                        stroke-miterlimit="10" stroke-width="2" x1="9" x2="40.416"
+                                                        y1="25" y2="25" />
+                                                </svg>
+                                            </span>
+                                        </div>
+                                        <div class="box">
+                                            <h3>페퍼로니버거</h3>
+                                            <img src="img/PepperoniBurger.png" alt="페퍼로니버거">
+                                            <span>
+                                                <!DOCTYPE svg
+                                                    PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+                                                <svg enable-background="new 0 0 50 50" height="50px" id="Layer_1"
+                                                    version="1.1" viewBox="0 0 50 50" width="50px" xml:space="preserve"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                    <rect fill="none" height="50" width="50" />
+                                                    <polyline fill="none"
+                                                        points="30.054,14.11   40.943,25 30.053,35.89 " stroke="#d2d2b4"
+                                                        stroke-linecap="round" stroke-miterlimit="10"
+                                                        stroke-width="2" />
+                                                    <line fill="none" stroke="#d2d2b4" stroke-linecap="round"
+                                                        stroke-miterlimit="10" stroke-width="2" x1="9" x2="40.416"
+                                                        y1="25" y2="25" />
+                                                </svg>
+                                            </span>
+                                        </div>
+                                        <div class="box">
+                                            <h3>리얼딥치즈버거</h3>
+                                            <img src="img/deepcheesBurger.png" alt="리얼딥치즈버거">
+                                            <span>
+                                                <!DOCTYPE svg
+                                                    PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+                                                <svg enable-background="new 0 0 50 50" height="50px" id="Layer_1"
+                                                    version="1.1" viewBox="0 0 50 50" width="50px" xml:space="preserve"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                    <rect fill="none" height="50" width="50" />
+                                                    <polyline fill="none"
+                                                        points="30.054,14.11   40.943,25 30.053,35.89 " stroke="#d2d2b4"
+                                                        stroke-linecap="round" stroke-miterlimit="10"
+                                                        stroke-width="2" />
+                                                    <line fill="none" stroke="#d2d2b4" stroke-linecap="round"
+                                                        stroke-miterlimit="10" stroke-width="2" x1="9" x2="40.416"
+                                                        y1="25" y2="25" />
+                                                </svg>
+                                            </span>
+                                        </div>
+                                        <div class="box">
+                                            <h3>바베큐버거</h3>
+                                            <img src="img/BarbecueBurger.png" alt="바베큐버거">
+                                            <span>
+                                                <!DOCTYPE svg
+                                                    PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+                                                <svg enable-background="new 0 0 50 50" height="50px" id="Layer_1"
+                                                    version="1.1" viewBox="0 0 50 50" width="50px" xml:space="preserve"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                    <rect fill="none" height="50" width="50" />
+                                                    <polyline fill="none"
+                                                        points="30.054,14.11   40.943,25 30.053,35.89 " stroke="#d2d2b4"
+                                                        stroke-linecap="round" stroke-miterlimit="10"
+                                                        stroke-width="2" />
+                                                    <line fill="none" stroke="#d2d2b4" stroke-linecap="round"
+                                                        stroke-miterlimit="10" stroke-width="2" x1="9" x2="40.416"
+                                                        y1="25" y2="25" />
+                                                </svg>
+                                            </span>
+                                        </div>
+                                        <div class="box">
+                                            <h3>더블스테이크버거</h3>
+                                            <img src="img/doubleSteakBurger.png" alt="더블스테이크버거">
+                                            <span>
+                                                <!DOCTYPE svg
+                                                    PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+                                                <svg enable-background="new 0 0 50 50" height="50px" id="Layer_1"
+                                                    version="1.1" viewBox="0 0 50 50" width="50px" xml:space="preserve"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                    <rect fill="none" height="50" width="50" />
+                                                    <polyline fill="none"
+                                                        points="30.054,14.11   40.943,25 30.053,35.89 " stroke="#d2d2b4"
+                                                        stroke-linecap="round" stroke-miterlimit="10"
+                                                        stroke-width="2" />
+                                                    <line fill="none" stroke="#d2d2b4" stroke-linecap="round"
+                                                        stroke-miterlimit="10" stroke-width="2" x1="9" x2="40.416"
+                                                        y1="25" y2="25" />
+                                                </svg>
+                                            </span>
+                                        </div>
+                                        <div class="box">
+                                            <h3>비프불고기버거</h3>
+                                            <img src="img/beefBulgogiBurger.png" alt="비프불고기버거">
+                                            <span>
+                                                <!DOCTYPE svg
+                                                    PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+                                                <svg enable-background="new 0 0 50 50" height="50px" id="Layer_1"
+                                                    version="1.1" viewBox="0 0 50 50" width="50px" xml:space="preserve"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                    <rect fill="none" height="50" width="50" />
+                                                    <polyline fill="none"
+                                                        points="30.054,14.11   40.943,25 30.053,35.89 " stroke="#d2d2b4"
+                                                        stroke-linecap="round" stroke-miterlimit="10"
+                                                        stroke-width="2" />
+                                                    <line fill="none" stroke="#d2d2b4" stroke-linecap="round"
+                                                        stroke-miterlimit="10" stroke-width="2" x1="9" x2="40.416"
+                                                        y1="25" y2="25" />
+                                                </svg>
+                                            </span>
+                                        </div>
+                                        <div class="box">
+                                            <h3>웰빙머쉬룸버거</h3>
+                                            <img src="img/mushroomBurger.png" alt="웰빙머쉬룸버거">
+                                            <span>
+                                                <!DOCTYPE svg
+                                                    PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+                                                <svg enable-background="new 0 0 50 50" height="50px" id="Layer_1"
+                                                    version="1.1" viewBox="0 0 50 50" width="50px" xml:space="preserve"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                    <rect fill="none" height="50" width="50" />
+                                                    <polyline fill="none"
+                                                        points="30.054,14.11   40.943,25 30.053,35.89 " stroke="#d2d2b4"
+                                                        stroke-linecap="round" stroke-miterlimit="10"
+                                                        stroke-width="2" />
+                                                    <line fill="none" stroke="#d2d2b4" stroke-linecap="round"
+                                                        stroke-miterlimit="10" stroke-width="2" x1="9" x2="40.416"
+                                                        y1="25" y2="25" />
+                                                </svg>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div><!-- product-title-child -->
+                            </div><!-- product-title-wrap -->
+                        </div><!-- right-txt-box -->
+                    </div><!-- cont txt-box -->
+                </div><!-- product-box -->
+            </div><!-- product -->
+        </section><!-- s4 -->
+        <section class="s5" data-bg="#d2d2b4">
+            <div class="big-box">
+                <h2>Hall Style</h2>
+                <div class="custom-cursor-area">
+                    <a href="#">
+                        <div class="big-photo">
+                            <img src="img/style.jpg" alt="매장 스타일">
+                        </div>
+                        <h3>NewYorkBurgerHall</h3>
+                        <p>일반&카페형매장</p>
+                    </a>
+                </div><!-- custom-cursor-area -->
+            </div><!-- big-box -->
+        </section><!-- s5 -->
+        <section class="s6" data-bg="#006432">
+            <div class="special-title">
+                <h2>뉴욕버거만의 특별한 메뉴</h2>
+                <p>100%냉장패티의 흥미진진한 맛<br>좋은재료로 정직하게 만들어 고객님들께 기쁨을 드립니다.</p>
+                <div class="more-btn">
+                    <a href="#">
+                        <div class="more">
+                            <span></span>
+                            <p>view more</p>
+                        </div>
+
+                        <div class="arrow arrow-yellow">
+                            <svg version="1.1"
+                                viewBox="0 0 96 96" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <style type="text/css">
+                                    .st0 {
+                                        display: none;
+                                    }
+
+                                    .st1 {
+                                        display: inline;
+                                    }
+
+                                    .st2 {
+                                        fill: none;
+                                        stroke: #111;
+                                        stroke-width: 2;
+                                        stroke-linecap: round;
+                                        stroke-linejoin: round;
+                                        stroke-miterlimit: 10;
+                                    }
+
+                                    .st3 {
+                                        display: none;
+                                        fill: none;
+                                        stroke: #111;
+                                        stroke-width: 2;
+                                        stroke-linecap: round;
+                                        stroke-linejoin: round;
+                                        stroke-miterlimit: 10;
+                                    }
+
+                                    .st4 {
+                                        fill: #111;
+                                    }
+                                </style>
+                                <g class="st0" id="Grid" />
+                                <g id="Home" />
+                                <g id="Search" />
+                                <g id="Plus" />
+                                <g id="Minus" />
+                                <g id="Setting" />
+                                <g id="People" />
+                                <g id="Statistic" />
+                                <g id="Left_Arrow" />
+                                <g id="Right_Arrow">
+                                    <g>
+                                        <line class="st2" x1="84.5" x2="3.5" y1="48" y2="48" />
+                                        <path class="st2" d="M70.8,70.3L92,49.1c0.6-0.6,0.6-1.6,0-2.2L70.8,25.7" />
+                                    </g>
+                                </g>
+                                <g id="Up_Arrow" />
+                                <g id="Bottom_Arrow" />
+                                <g id="Attachment" />
+                                <g id="Calendar" />
+                                <g id="Price" />
+                                <g id="News" />
+                            </svg>
+                        </div>
+                    </a>
+                </div><!-- more-btn -->
+            </div>
+            <div class="special-content">
+                <div class="custom-cursor-area special1">
+                    <a href="#">
+                        <div class="special-wrap">
+                            <div class="special-img">
+                                <img src="img/newyorkburger.png" alt="뉴욕버거">
+                            </div>
+                            <div class="special-hover">
+                                <h3>신선한 패티의 육즙이 넘치는 맛</h3>
+                            </div>
+                        </div>
+                        <div class="special-des">
+                            <p>뉴욕버거</p>
+                        </div>
+                        <span>육즙이 풍부한 폭풍식감 대표 시그니처 수제버거</span>
+                    </a>
+                </div>
+                <div class="custom-cursor-area special2">
+                    <a href="#">
+                        <div class="special-wrap">
+                            <div class="special-img">
+                                <img src="img/chiliChickingbuger.png" alt="칠리치킹버거">
+                            </div>
+                            <div class="special-hover">
+                                <h3>치킨의 기본 양념소스와 매콤한 조화</h3>
+                            </div>
+                        </div>
+                        <div class="special-des">
+                            <p>칠리치킹버거</p>
+                        </div>
+                        <span>푸짐한 통갉다리살과 매콤달콤한 특제소스의 조화! 치킨버거의 왕!</span>
+                    </a>
+                </div>
+                <div class="custom-cursor-area special3">
+                    <a href="#">
+                        <div class="special-wrap">
+                            <div class="special-img">
+                                <img src="img/garlicChickingburger.png" alt="갈릭치킹버거">
+                            </div>
+                            <div class="special-hover">
+                                <h3>갈릭소스와 치킨의 만남</h3>
+                            </div>
+                        </div>
+                        <div class="special-des">
+                            <p>갈릭치킹버거</p>
+                        </div>
+                        <span>푸짐한 통닭다리살과 특제소스의 꿀조합! 치킨버거의 왕!</span>
+                    </a>
+                </div>
+                <div class="custom-cursor-area special4">
+                    <a href="#">
+                        <div class="special-wrap">
+                            <div class="special-img">
+                                <img src="img/shrimpBurger.png" alt="통새우버거">
+                            </div>
+                            <div class="special-hover">
+                                <h3>통통한 새우의 푸짐한 양 </h3>
+                            </div>
+                        </div>
+                        <div class="special-des">
+                            <p>통새우버거</p>
+                        </div>
+                        <span>통통터지는 통새우살이 한 가득 들어있다! 진짜 새우버거!</span>
+                    </a>
+                </div>
+                <div class="custom-cursor-area special5">
+                    <a href="#">
+                        <div class="special-wrap">
+                            <div class="special-img">
+                                <img src="img/deepcheesBurger.png" alt="리얼딥치즈버거">
+                            </div>
+                            <div class="special-hover">
+                                <h3>치즈의 매니아의 깊은맛</h3>
+                            </div>
+                        </div>
+                        <div class="special-des">
+                            <p>리얼딥치즈버거</p>
+                        </div>
+                        <span>체다치즈와 고다치즈가 만났다! 리얼딥치즈버거!</span>
+                    </a>
+                </div>
+                <div class="custom-cursor-area special6">
+                    <a href="#">
+                        <div class="special-wrap">
+                            <div class="special-img">
+                                <img src="img/mushroomBurger.png" alt="웰빙머쉬룸버거">
+                            </div>
+                            <div class="special-hover">
+                                <h3>웰빙버섯으로 맛과 칼로리를 한번에</h3>
+                            </div>
+                        </div>
+                        <div class="special-des">
+                            <p>웰빙머쉬룸버거</p>
+                        </div>
+                        <span>트랜스지방 Zero! 콜레스테롤 Zero!</span>
+                    </a>
+                </div>
+                <div class="custom-cursor-area special7">
+                    <a href="#">
+                        <div class="special-wrap">
+                            <div class="special-img">
+                                <img src="img/SquidBurger.png" alt="오찡버거">
+                            </div>
+                            <div class="special-hover">
+                                <h3>좋은 오징어를 푸짐하게!</h3>
+                            </div>
+                        </div>
+                        <div class="special-des">
+                            <p>오찡버거</p>
+                        </div>
+                        <span>쫄깃한 오징어패티와 코가 찡해지는 매운소스!</span>
+                    </a>
+                </div>
+            </div>
+        </section><!-- s6 -->
+        <section class="s7">
+            <div class="text-ani2" data-bg="white">
+                <div class="text-wrap">
+                    <p>NEWYORK BURGER & CHICKEN BURGER & SIDE DISH &amp;&nbsp;</p>
+                    <p>NEWYORK BURGER & CHICKEN BURGER & SIDE DISH &amp;&nbsp;</p>
+                    <p>NEWYORK BURGER & CHICKEN BURGER & SIDE DISH &amp;&nbsp;</p>
+                    <p>NEWYORK BURGER & CHICKEN BURGER & SIDE DISH &amp;&nbsp;</p>
+                    <p>NEWYORK BURGER & CHICKEN BURGER & SIDE DISH &amp;&nbsp;</p>
+                    <p>NEWYORK BURGER & CHICKEN BURGER & SIDE DISH &amp;&nbsp;</p>
+                </div>
+            </div>
+        </section><!-- s7 -->
+        <section class="s8">
+            <div class="text-wrap">
+                <p>NEWYORK STYLE</p>
+                <p><img src="img/mainlogo.png" alt="로고이미지"></p>
+                <p>NEWYORK STYLE</p>
+                <p><img src="img/mainlogo.png" alt="로고이미지"></p>
+            </div>
+        </section><!-- s8 -->
+        <section class="s9">
+            <div class="partner-wrap">
+                <h2>PARTNER</h2>
+                <p>뉴욕버거는 파트너십을 유지하여 경쟁력을 높이기 위해 노력하고 있습니다.</p>
+                <div class="more-btn">
+                    <a href="#">
+                        <div class="more">
+                            <span></span>
+                            <p>view more</p>
+                        </div>
+                        <div class="arrow">
+                            <svg style="enable-background:new 0 0 96 96;" version="1.1"
+                                viewBox="0 0 96 96" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <style type="text/css">
+                                    .st0 {
+                                        display: none;
+                                    }
+
+                                    .st1 {
+                                        display: inline;
+                                    }
+
+                                    .st2 {
+                                        fill: none;
+                                        stroke: #111;
+                                        stroke-width: 2;
+                                        stroke-linecap: round;
+                                        stroke-linejoin: round;
+                                        stroke-miterlimit: 10;
+                                    }
+
+                                    .st3 {
+                                        display: none;
+                                        fill: none;
+                                        stroke: #111;
+                                        stroke-width: 2;
+                                        stroke-linecap: round;
+                                        stroke-linejoin: round;
+                                        stroke-miterlimit: 10;
+                                    }
+
+                                    .st4 {
+                                        fill: #111;
+                                    }
+                                </style>
+                                <g class="st0" id="Grid" />
+                                <g id="Home" />
+                                <g id="Search" />
+                                <g id="Plus" />
+                                <g id="Minus" />
+                                <g id="Setting" />
+                                <g id="People" />
+                                <g id="Statistic" />
+                                <g id="Left_Arrow" />
+                                <g id="Right_Arrow">
+                                    <g>
+                                        <line class="st2" x1="84.5" x2="3.5" y1="48" y2="48" />
+                                        <path class="st2" d="M70.8,70.3L92,49.1c0.6-0.6,0.6-1.6,0-2.2L70.8,25.7" />
+                                    </g>
+                                </g>
+                                <g id="Up_Arrow" />
+                                <g id="Bottom_Arrow" />
+                                <g id="Attachment" />
+                                <g id="Calendar" />
+                                <g id="Price" />
+                                <g id="News" />
+                            </svg>
+                        </div>
+                    </a>
+                </div><!-- more-btn -->
+            </div>
+            <div class="img-ani">
+                <div class="inner">
+                    <div class="track">
+                        <p>
+                            <a href="#"><img src="img/top100.png" alt="TOP100KRBA"></a>
+                        </p>
+                        <p>
+                            <a href="#"><img src="img/kbsbrand.png" alt="KBSNBrandAwards"></a>
+                        </p>
+                        <p>
+                            <a href="#"><img src="img/yogiyo.png" alt="요기요"></a>
+                        </p>
+                        <p>
+                            <a href="#"><img src="img/ddangGyeoYo.png" alt="땡겨요"></a>
+                        </p>
+                        <p>
+                            <a href="#"><img src="img/lotte.png" alt="롯데칠성"></a>
+                        </p>
+                        <p>
+                            <a href="#"><img src="img/okpos.png" alt="OKPOS"></a>
+                        </p>
+                        <p>
+                            <a href="#"><img src="img/deliv.png" alt="배달의 민족"></a>
+                        </p>
+                    </div><!-- track -->
+                </div><!-- inner -->
+            </div><!-- img-ani -->
+        </section><!-- s9 -->
+        <section class="s11">
+            <h2>STORE INFO</h2>
+            <p>다양한 뉴욕버거매장을 만나보세요.</p>
+            <div class="slide-box">
+                <div class="swiper storeSwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <div class="swiper-img">
+                                    <img src="img/kHall.png" alt="광주방림점">
+                                </div>
+                                <p>매장정보</p>
+                                <h3>광주방림점</h3>
+                                <p>광주 남구 대남대로<br>연락처: 010-1111-1111</p>
+                                <span>2024년 10월 12일</span>
+                            </a>
+                        </div><!-- swiper-slide -->
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <div class="swiper-img">
+                                    <img src="img/yeongHall.png" alt="영등포점">
+                                </div>
+                                <p>매장정보</p>
+                                <h3>영등포점</h3>
+                                <p>서울 영등포구 당산로<br>연락처: 010-0000-1111</p>
+                                <span>2024년 10월 12일</span>
+                            </a>
+                        </div><!-- swiper-slide -->
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <div class="swiper-img">
+                                    <img src="img/incheonHall.png" alt="인천검단법원점">
+                                </div>
+                                <p>매장정보</p>
+                                <h3>인천검단법원점</h3>
+                                <p>인천광역시 서구<br>연락처: 010-1111-0000</p>
+                                <span>2024년 10월 12일</span>
+                            </a>
+                        </div><!-- swiper-slide -->
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <div class="swiper-img">
+                                    <img src="img/jeonjuHall.png" alt="전주혁신도시점">
+                                </div>
+                                <p>매장정보</p>
+                                <h3>전주혁신도시점</h3>
+                                <p>전북특별자치도 전주시 덕진구<br>연락처: 010-0000-0000</p>
+                                <span>2024년 10월 12일</span>
+                            </a>
+                        </div><!-- swiper-slide -->
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <div class="swiper-img">
+                                    <img src="img/incheonMuloHall.png" alt="인천물로점">
+                                </div>
+                                <p>매장정보</p>
+                                <h3>인천물로점</h3>
+                                <p>인천 서구 불로동<br>연락처: 010-1100-0011</p>
+                                <span>2024년 10월 12일</span>
+                            </a>
+                        </div><!-- swiper-slide -->
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <div class="swiper-img">
+                                    <img src="img/siHungStore.png" alt="시흥은계점">
+                                </div>
+                                <p>매장정보</p>
+                                <h3>시흥은계점</h3>
+                                <p>시흥시 은행동<br>연락처: 031-111-0011</p>
+                                <span>2024년 10월 12일</span>
+                            </a>
+                        </div><!-- swiper-slide -->
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <div class="swiper-img">
+                                    <img src="img/chunCheonStore.png" alt="춘천명동점">
+                                </div>
+                                <p>매장정보</p>
+                                <h3>춘천명동점</h3>
+                                <p>강원특별자치도 춘천시<br>연락처: 033-100-0011</p>
+                                <span>2024년 10월 12일</span>
+                            </a>
+                        </div><!-- swiper-slide -->
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <div class="swiper-img">
+                                    <img src="img/suziOfficeStore.png" alt="수지구청점">
+                                </div>
+                                <p>매장정보</p>
+                                <h3>수지구청점</h3>
+                                <p>경기 용인시 수지구<br>연락처: 031-8100-0011</p>
+                                <span>2024년 10월 12일</span>
+                            </a>
+                        </div><!-- swiper-slide -->
+                    </div><!-- swiper-wrapper -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div><!-- swiper storeSwiper -->
+            </div><!-- slidebox -->
+        </section><!-- s11 -->
+        <section class="s12">
+            <!-- 흐르는 글자 -->
+            <div class="text-ani">
+                <div class="text-wrap">
+                    <p>NEWYORK BURGER & CHICKEN BURGER & SIDE DISH &amp;&nbsp;</p>
+                    <p>NEWYORK BURGER & CHICKEN BURGER & SIDE DISH &amp;&nbsp;</p>
+                </div>
+            </div>
+            <div class="line-up">
+                <h2>뉴욕버거 X 최우식</h2>
+                <p>배우 최우식과 함께한 뉴욕버거 모델 인터뷰</p>
+                <div class="custom-cursor-area ani-area">
+                    <div class="line-up-video">
+                        <iframe width="560" height="315"
+                            src="https://www.youtube.com/embed/JQ5ZkILDNwU?si=QNljjEXcds3r8sSY&amp;controls=0&autoplay=1&mute=1&loop=1&playlist=JQ5ZkILDNwU"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </section><!-- s12 -->
+        <footer>
+            <div class="footer-wrap">
+                <div class="footer-top">
+                    <div class="footer-top-left">
+                        <h2>고객센터</h2>
+                        <address>
+                            서울특별시 강남구 수서동 716, 한신사이룩스
+                            <span>전화 02-000-0000<br>팩스 02-000-0000</span>
+                        </address>
+                        <i>※ 방문 전화 상당은 평일 9시~ 18시에 가능합니다.</i>
+                        <div class="btns">
+                            <button>자주 하는 질문</button>
+                            <button>1:1문의</button>
+                            <button>클린신고센터</button>
+                        </div>
+                    </div>
+                    <div class="footer-top-right">
+                        <!-- 카카오 지도 -->
+                        <!-- * 카카오맵 - 지도퍼가기 -->
+                        <!-- 1. 지도 노드 -->
+                            <div id="daumRoughmapContainer1727837905242" class="root_daum_roughmap root_daum_roughmap_landin"></div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <div class="footer-bottom-left">
+                        <div class="footer-logo">
+                            <img src="img/footerLogo.png" alt="logo">
+                        </div>
+                        <address>
+                            주식회사 수혁<br>경기도 안성시 원곡면 지문로 000-00 (안성산업단지內)<br>전화 02-0000-0000 | F&B대표 : 홍길동 | 사업자등록번호
+                            000-00-00000 | 서울사무소 : 서울특별시 강남구 수서동 
+                        </address>
+                        <p>Copyrightⓒ2024 NewyorkBurger All rights Reserved</p>
+                    </div><!-- footer-bottom-left -->
+                    <div class="footer-bottom-right">
+                        <div class="family">
+                            <a href="#">
+                                <p>FamilySite</p>
+                                <span><img src="img/up.svg" alt="패밀리사이트"></span>
+                            </a>
+                            <div class="family-site">
+                                <a href="#">요기요</a>
+                                <a href="#">땡겨요</a>
+                                <a href="#">록데칠성</a>
+                                <a href="#">KT</a>
+                                <a href="#">OKPOS</a>
+                                <a href="#">배달의 민족</a>
+                            </div>
+                        </div><!-- family -->
+                        <div class="sns">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <img src="img/youtube.png" alt="유튜브">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="img/blog2.png" alt="블로그">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="img/insta.png" alt="인스타그램">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="img/facebook.png" alt="페이스북">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div><!-- sns -->
+                    </div><!-- footer-bottom-right -->
+                </div><!-- footer-bottom -->
+            </div><!-- footer-wrap -->
+            <div class="top-btn">
+                <div class="top-btn-wrap">
+                    <img src="img/top-btn.svg" alt="TOP버튼">
+                </div>
+            </div>
+        </footer>
+    </div><!-- wrap -->
+    <div class="custom-cursor">
+        <i>view more</i>
+        <b>
+            <!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'><svg
+                enable-background="new 0 0 50 50" height="50px" id="Layer_1" version="1.1" viewBox="0 0 50 50"
+                width="50px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink">
+                <rect fill="none" height="50" width="50" />
+                <polyline fill="none" points="30.054,14.11   40.943,25 30.053,35.89 " stroke="#d2d2b4"
+                    stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" />
+                <line fill="none" stroke="#d2d2b4" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" x1="9"
+                    x2="40.416" y1="25" y2="25" />
+            </svg>
+        </b>
+    </div>
+    
+	<!-- 2. 설치 스크립트
+	* 지도 퍼가기 서비스를 2개 이상 넣을 경우, 설치 스크립트는 하나만 삽입합니다. -->
+    <script charset="UTF-8" class="daum_roughmap_loader_script"
+        src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+
+    <!-- 3. 실행 스크립트 -->
+    <script charset="UTF-8">
+        new daum.roughmap.Lander({
+            "timestamp": "1727837905242",
+            "key": "2ksjj",
+            "mapWidth": "740",
+            "mapHeight": "360"
+        }).render();
+    </script>
+    <script>
+        // .s6영역의 자식 객체 .intro-wrap애니메이션
+        document.addEventListener("DOMContentLoaded", function() {
+            const introWraps = document.querySelectorAll(".special-wrap");
+            const introAni = {
+                root: null,     // 기본값은 viewport
+                rootMargin: '0px',  // viewport와의 간격
+                thresold: 0.1   // 자식 객체의 10%가 보이면 callback실행
+            };
+            // callback함수 선언
+            const observer = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if(entry.isIntersecting) {
+                        entry.target.classList.add("active");
+                    } else {
+                        // entry.target.classList.remove("active");
+                    }
+                });
+            }, introAni);
+            // 각 .intro-wrap 객체에 observer 연결
+            introWraps.forEach(introWrap => {
+                observer.observe(introWrap);
+            });
+        });
+    </script>
+</body>
+
+</html>
